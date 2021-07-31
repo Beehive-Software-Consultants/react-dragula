@@ -1,7 +1,14 @@
 {
   "name": "react-dragula",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.0",
+  "main": "build/main.js",
+  "module": "build/index.js",
+  "files": [
+    "build",
+    "types"
+  ],
+  "types": "types/index.d.ts",
+  "private": false,
   "dependencies": {
     "dragula": "^3.7.3"
   },
